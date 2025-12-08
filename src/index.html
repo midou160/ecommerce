@@ -9,13 +9,14 @@
 
 <body>
     <div class="container-fluid">
+        <!-- القائمة العلوية -->
         <div class="row">
             <nav class="navbar custom-navbar navbar-expand-lg">
                 <div class="container px-0">
                     <div class="navbar-header">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarCollapse" aria-controls="navbarCollapse"
-                            aria-expanded="false" aria-label="Toggle navigation">
+                            data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                            aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <a href="" class="me-5">
@@ -25,8 +26,8 @@
                     <form class="d-flex">
                         <input type="search" class="form-control custom-form-control" placeholder="ابحث عن منتج">
                         <div class="dropdown">
-                            <a href="#" class="nav-link dropdown-toggle custom-btn" data-toggle="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">اختر فئة</a>
+                            <a href="#" class="nav-link dropdown-toggle custom-btn" data-toggle="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">اختر فئة</a>
                             <ul class="dropdown-menu custom-dropdown-menu">
                                 <li>
                                     <div class="checkbox ms-2">
@@ -77,7 +78,8 @@
                                 <a href="./contact.html" class="nav-link">تواصل معنا</a>
                             </li>
                             <li class="mt-2">
-                                <a href="./checkout.html" class="btn-icon" id="btn-shopping-cart" title="عربة الشراء" data-bs-toggle="tooltip" data-bs-placement="bottom">
+                                <a href="./checkout.html" class="btn-icon" id="btn-shopping-cart" title="عربة الشراء"
+                                    data-bs-toggle="tooltip" data-bs-placement="bottom">
                                     <i class="fa-solid fa-bag-shopping"></i>
                                 </a>
                             </li>
@@ -86,6 +88,113 @@
                 </div>
             </nav>
 
+        </div>
+        <!-- نهاية القائمة العلوية -->
+        <div class="row">
+            <div id="carousel-featured" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators custom-carousel-indicators">
+                    <img src="images/lacoste_1.png" data-bs-target="#carousel-featured" data-bs-slide-to="0"
+                        class="active custom-carousel-indicators-primary" alt="lacoste_1">
+                    <img src="images/lacoste_2.png" data-bs-target="#carousel-featured" data-bs-slide-to="1"
+                        class="custom-carousel-indicators-primary" alt="lacoste_2">
+                    <img src="images/lacoste_3.png" data-bs-target="#carousel-featured" data-bs-slide-to="2"
+                        class="custom-carousel-indicators-primary" alt="lacoste_3">
+                    <img src="images/adidas_3.jpg" data-bs-target="#carousel-featured" data-bs-slide-to="3"
+                        class="custom-carousel-indicators-primary" alt="adidas_3">
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-4 offset-2">
+                                    <img src="images/lacoste_1.png" alt="lacoste_1">
+                                </div>
+                                <div class="col-6">
+                                    <div class="product-details">
+                                        <div class="product-category">
+                                            تخفيضات
+                                        </div>
+                                        <div class="sale large">
+                                            30%
+                                            <span class="fs-6">خصم</span>
+                                        </div>
+                                        <h1>تي شيرت رجالي من لاكوست</h1>
+                                        <a href="product.html" class="btn btn-lg custom-btn-outline-warning mt-3">تسوّق
+                                            الآن</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="images/lacoste_2.png" alt="lacoste_2">
+                                </div>
+                                <div class="col-8">
+                                    <div class="product-details">
+                                        <div class="product-category">
+                                            نسائي
+                                        </div>
+                                        <h1>حقيبة شانتاكو نسائية</h1>
+                                        <a href="product.html" class="btn btn-lg custom-btn-outline-warning mt-3">تسوّق
+                                            الآن</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-4 offset-2">
+                                    <img src="images/lacoste_3.png" alt="lacoste_3">
+                                </div>
+                                <div class="col-6">
+                                    <div class="product-details">
+                                        <div class="product-category">
+                                            الأكثر مبيعًا
+                                        </div>
+                                        <div class="sale large">
+                                            30%
+                                            <span class="fs-6">خصم</span>
+                                        </div>
+                                        <h1>تي شيرت بولو</h1>
+                                        <a href="product.html" class="btn btn-lg custom-btn-outline-warning mt-3">تسوّق
+                                            الآن</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-4 offset-2">
+                                    <img src="images/adidas_3.jpg" alt="adidas_3">
+                                </div>
+                                <div class="col-6">
+                                    <div class="product-details">
+                                        <div class="product-category">
+                                            أطفال
+                                        </div>
+                                        <h1>بدلة فايربرد الرياضية</h1>
+                                        <a href="product.html" class="btn btn-lg custom-btn-outline-warning mt-3">تسوّق
+                                            الآن</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <button class="carousel-control-prev" data-bs-target="#carousel-featured" data-bs-slide="prev">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#carousel-featured" data-bs-slide="next">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+            </div>
         </div>
     </div>
 </body>
