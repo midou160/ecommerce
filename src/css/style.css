@@ -223,11 +223,128 @@ body{
     background-position: -10px -20px;
 }
 
-#store-features .col-4 img{
+#store-features .feature img{
     height: 40px;
     margin-bottom: 10px;
 }
 
-#store-features .col-4+.col-4{
+#store-features .feature+.feature{
     border-right: 1px solid #EEF0EA;
+}
+
+.heading{
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.custom-thumbnail img{
+    height: 250px;
+    width: 100%;
+    max-width: 250px;
+}
+
+.custom-thumbnail{
+    border: 2px solid #EEF0EA;
+    padding: 8px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.custom-thumbnail:hover{
+    border-color: #53CCD7;
+}
+
+.custom-thumbnail h4{
+    font-size: 18px;
+}
+
+.price{
+    color: #53CCD7;
+}
+
+.rating{
+    color: #C2C2C2;
+}
+
+.rating .active{
+    color: #f3af41;
+}
+
+.overlay{
+    position: absolute;
+    background-color: rgba(83, 204, 215, 0.5);
+    height: 250px;
+    width: calc(100% - 16px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+
+.add-to-cart{
+    color: #53CCD7;
+    background-color: #fff;
+    font-weight: 700;
+}
+
+.custom-thumbnail .sale{
+    padding: 5px 10px;
+    position: absolute;
+    left: 16px;
+    top: 14px;
+}
+
+.custom-thumbnail .sale::after{
+    content: "-";
+}
+
+.custom-carousel-indicators-2{
+    bottom: -20px !important;
+}
+
+.custom-carousel-indicators-2>li{
+    width: 13px !important;
+    height: 13px !important;
+    margin: 2px !important;
+    background-color: #dbdbdb !important;
+}
+
+.custom-carousel-indicators-2>li.active{
+    background-color: #565656 !important;
+}
+
+.panel{
+    border: 4px solid #EEF0EA;
+    border-radius: 2px;
+    padding: 20px;
+}
+
+.panel h4,
+.panel .price{
+    margin-bottom: 15px;
+    margin-top: 0;
+    font-size: 130%;
+}
+
+.custom-text-muted{
+    color: #A9A9A9 !important;
+}
+
+.arrow-btn{
+    background-color: #fff;
+    color: #868686;
+    border: 1px solid #EBEBEB;
+    border-radius: 2px;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+#row-brands h3.heading{
+    border-top: 1px solid #EEF0EA;
+    padding-top: 25px;
 }

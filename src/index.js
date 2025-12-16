@@ -6,4 +6,8 @@ import '@fortawesome/fontawesome-free/js/all.min.js';
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
 
-console.log("Hello World!");
+document.querySelectorAll(".add-to-cart").forEach(button => {
+    button.addEventListener("click", () => {
+        alert("اضف المنتج الى عربة الشراء")
+})
+})
