@@ -11,3 +11,5 @@ document.querySelectorAll(".add-to-cart").forEach(button => {
         alert("اضف المنتج الى عربة الشراء")
 })
 })
+
+document.getElementById("copyright").innerHTML = "جميع الحقوق محفوظة سنة " + new Date().getFullYear();
