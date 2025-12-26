@@ -578,6 +578,70 @@ body{
     margin-bottom: 5px;
 }
 
+/* checkout page */
+
+h1.custom-heading{
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.custom-media img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ebebeb;
+    margin-left: 10px;
+}
+
+.custom-table th,
+.custom-table td{
+    padding: 15px;
+    font-size: 120%;
+    vertical-align: middle;
+    border-bottom: 1px solid #ebebeb;
+    border-top: 1px solid #EBEBEB;
+}
+
+.custom-table h4{
+    font-size: 18px;
+    padding: 12px 0;
+}
+
+.custom-table th{
+    color: #C2C2C2;
+    font-weight: normal;
+}
+
+.custom-table th:first-child,
+.custom-table td:first-child{
+    width: 50%;
+}
+
+.custom-table th:not(:first-child),
+.custom-table td:not(:first-child){
+    text-align: center;
+}
+
+.custom-table tfoot td{
+    border-bottom: none;
+    font-size: 150%;
+}
+
+#total-price-for-all-products{
+    color: #000;
+}
+
+.custom-btn-outline-danger{
+    background-color: transparent;
+    border-color: #ff3956;
+    color: #ff3956;
+}
+
+.custom-btn-outline-danger:hover{
+    background-color: #ff3956;
+    border-color: #ff3956;
+    color: #fff;
+}
+
 @media (max-width: 1199.98px) {
     .custom-navbar .navbar-nav li a.nav-link{
         padding: 7px;
@@ -698,6 +762,9 @@ body{
         width: 100% !important;
         max-width: 100% !important;
         padding: 0 20px;
+    }
+    .hide-on-small{
+        display: none !important;
     }
 }
 
